@@ -1,0 +1,4 @@
+1. callback function doesn't automatically make code asynchronous. 
+2. AJAX calls are probably the most important use-case of Asynchronous JavaScript.
+3. 'use-strict' - all the JavaScript variables should have defined data type. 
+4. function invocation creates a brand new execution context in the 'code' phase [2 phases : memory allocation & code execution] 
