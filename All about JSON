@@ -1,0 +1,60 @@
+/*
+ * JSON => JavaScript Object Notation [ Text-based data format - used to 'store' and 'transfer data' ]
+        => Light-weight data interchange format | Language independent | Data get stored in key-value pairs separated by commas.
+*/
+
+// JSON syntax :
+let JavaScript_Object = {
+  name: "Arnab",
+  age: 22,
+  gender: "male",
+};
+
+// ? => JavaScript_Object -> JSON object :
+
+// ! Important : Object to JSON : JavaScript objects ---> (JSON.stringify()) ---> JSON
+// * JavaScript object :
+const JSON_Data = { name: "Abhishek", age: 24 };
+
+// * Convert to JSON object :
+const Object = JSON.stringify(JSON_Data);
+
+// ! => JSON -> JavaScript_Object : JSON ---> (parse()) ---> JavaScript objects
+
+// * JSON object :
+const jsonString = '{"name": "John", "age": 30}';
+
+// * JavaScript object :
+const obj = JSON.parse(jsonString);
+console.log(obj); // { name: 'John', age: 30 }
+
+// ? Accessing JSON data : [using - dot (.) notation or square bracket syntax[]]
+const data = {
+  name: "Soumitra",
+  age: 54,
+  hobby: {
+    reading: true,
+    gaming: false,
+    favourite_sport: "football",
+  },
+  specialization: ["JavaScript", "TypeScript", "React"],
+};
+
+// * Accessing JSON object :
+console.log(data.name); // Soumitra
+console.log(data["name"]); // Soumitra
+
+console.log(data.hobby);
+
+console.log(data.hobby.sport); // football
+console.log(data.specialization[1]); // TypeScript
+
+// ! Differences between JavaScript objects and JSON :
+/*
+JS objects can have functions as values, while JSON does not support functions.
+JSON is a text format that is used for data exchange, while JS objects are a data structure used within JavaScript.
+JSON requires all keys to be surrounded by double quotes, while JS object keys do not necessarily need to be quoted. 
+*/
+
+
+// .stringify(object) || .parse(json)
