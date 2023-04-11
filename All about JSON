@@ -58,3 +58,73 @@ JSON requires all keys to be surrounded by double quotes, while JS object keys d
 
 
 // .stringify(object) || .parse(json)
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ // 
+
+
+// * Commit - 02 : 
+=> What is JSON ? 
+    JSON is the abbreviated form of - JavaScript Object Notation, is a standard text-based data format used in web development
+    to send and receive the data. 
+
+    - JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write.
+    It is easy for machines to parse and generate.
+
+    - It is based on a subset of the JavaScript Programming Language.
+
+    - JSON is a text format that is completely language independent but uses conventions that are familiar to programmers
+      of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others.
+      These properties make JSON an ideal data-interchange language.
+
+=> Advantages of using JSON : 
+    - It is supported by all programming languages. 
+    - It can be used on all platforms. 
+    - It is a light-weight database standard, so that the data transmission is fast. 
+
+=> Where JSON is used ? 
+    - Web Applications 
+    - APIs 
+    - Mobile Applications 
+    - Gaming APIs 
+    - IOT 
+
+=> Data types supported in JSON : 
+    - String 
+    - Number 
+    - Arrays 
+    - Null 
+    - Boolean 
+    - Object 
+
+=> JSON methods in JavaScript : 
+    - JSON.parse() : Takes JSON string and convert into JavaScript Object 
+    - JSON.stringify : Convert JavaScript Object (JSON) into JSON string (useful while sending over the network)
+
+
+
+=> Structure of JSON : 
+    JSON is built on two structures:
+
+    A collection of name/value pairs. In various languages, this is realized as an - 
+                                                                                    object,
+                                                                                    record,
+                                                                                    struct,
+                                                                                    dictionary,
+                                                                                    hash table,
+                                                                                    keyed list,
+                                                                                    or associative array.
+    An ordered list of values. In most languages, this is realized as an - 
+                                                                            array, 
+                                                                            vector, 
+                                                                            list, 
+                                                                            or sequence.
+    These are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is 
+    Interchangeable with programming languages also be based on these structures.
+
+
+// Key Takeaways : 
+    1. // Comment(s) inside a JSON file is/are not allowed.  
+    2. Interchangeable properties among different programming languages are based on the universal data structures that JSON supports. 
+
+Reference : https://www.json.org/json-en.html
